@@ -1,0 +1,104 @@
+header{
+    height: 660px;
+    background-image: linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)), url(../images/work-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+small{
+    font-size: 14px;
+}
+
+.side-bar{
+
+    background-color: #414658;
+    position: fixed;
+    top: 0 ;
+    bottom: 0 ;
+    left: -250px;
+    width: 250px;
+    
+}
+.open{
+    position: absolute;
+    left: 20px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li  {
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+ul li a:hover{
+   
+    color: brown;
+    
+}
+
+.one, .two, .three, .four{
+    background-color: #E68185;
+    cursor: pointer;
+}
+
+.one-info, .two-info, .three-info, .four-info{
+    background-color: #CCCCCC;
+    display: none;
+}
+
+.count-down{
+    height: 330px;
+    background-image: linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)), url(../images/invitation.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.status{
+    border: solid white 2px;
+   background-color: transparent;
+    height: 75%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.inp{
+    height:50px;
+   
+}
+.close-side{
+    cursor: pointer;
+}
+
+
+  
+  
+  #days, #hours,#minutes,#seconds{
+    font-size: 35px;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    #days, #hours,#minutes,#seconds{
+        font-size: 16px;
+      }
+  }

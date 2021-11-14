@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="d-flex flex-column justify-content-center align-items-center text-white" id="home">
+        <h1>
+           Egyption Party
+        </h1>
+        <small>
+            Let's have Fun
+        </small>
+        <div class="open d-flex justify-content-center align-items-center">
+            <i class="fas fa-bars fa-2x mr-2"></i>
+            <h3 class="open-close">Open</h3>
+        </div>
+        <div class="side-bar "> 
+            <ul class="mt-5">
+                <li class="text-right close-side"><i class="fas fa-times  mr-4"></i></li>
+                <li class="py-3" id="home-link">Home</li>
+                <li class="py-3" id="duration-link">Duration</li>
+                <li class="py-3" id="details-link">Details</li>
+                <li class="py-3" id="contact-link">Contact</li>
+               
+            </ul>
+
+            <div class="side">
+                
+            </div>
+        </div>
+        
+        
+    </header>
+
+    <section class="singer w-50 mx-auto my-5 py-5 " id="duration">
+        <div class="one text-center text-white p-1">
+            <h4>
+                Singer One
+            </h4>
+        </div>
+        <div class="one-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eligendi neque, ut corporis, repellat aut mollitia laboriosam voluptatum ad porro tempore a odit minima cupiditate esse. Possimus deserunt expedita corporis.
+        </div>
+        <div class="two text-center text-white p-1">
+            <h4>
+                Singer two
+            </h4>
+        </div>
+        <div class="two-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eligendi neque, ut corporis, repellat aut mollitia laboriosam voluptatum ad porro tempore a odit minima cupiditate esse. Possimus deserunt expedita corporis.
+        </div>
+        <div class="three text-center text-white p-1">
+            <h4>
+                Singer three
+            </h4>
+        </div>
+        <div class="three-info ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eligendi neque, ut corporis, repellat aut mollitia laboriosam voluptatum ad porro tempore a odit minima cupiditate esse. Possimus deserunt expedita corporis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nesciunt quaerat a, veritatis nisi non minus quisquam facere commodi cupiditate numquam. Alias molestiae atque exercitationem doloremque, ullam suscipit molestias accusamus.
+        </div>
+        <div class="four text-center text-white p-1">
+            <h4>
+                Singer four
+            </h4>
+        </div>
+        <div class="four-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eligendi neque, ut corporis, repellat aut mollitia laboriosam voluptatum ad porro tempore a odit minima cupiditate esse. Possimus deserunt expedita corporis.
+        </div>
+    </section>
+
+
+    <section class="count-down my-5 py-5" id="details">
+        <div class="container h-100">
+            <div class="d-flex justify-content-between align-items-center h-100" >
+                <div class="status mx-3">
+                    <div id="days"></div>
+                </div>
+                <div class="status mx-3">
+                    <div id="hours"></div>
+
+                </div>
+                <div class="status mx-3">
+                    <div id="minutes"></div>
+
+                </div>
+                <div class="status mx-3">
+                    <div id="seconds"></div>
+
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <section class="join-us py-5 my-5" id="contact">
+
+        <div class="container">
+            <h2>
+                Join us
+            </h2>
+    
+            <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, rerum.</p>
+            <div class="row">
+                <div class="col-lg-6">
+
+                    <h3>
+                        Contact Info
+                    </h3>
+                    <p >
+                        Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+                    </p>
+    
+                    <div class="d-flex py-3">
+                        <i class="fas fa-map-marker-alt fa-2x pr-3"></i>
+                        <p>
+                            New Street 22545, Nexa Road, New York City, USA
+                        </p>
+                    </div>
+                    <div class="d-flex py-3">
+                        <i class="fas fa-envelope fa-2x pr-3"></i> 
+                        <p>
+                            hello@uigrid.com
+                        </p>
+                    </div>
+                    <div class="d-flex py-3">
+                        <i class="fas fa-phone-alt fa-2x pr-3"></i>
+                        <p>
+                            001-000-000-000
+                        </p>
+                    </div>
+                </div> 
+    
+    
+                <div class="col-lg-6">
+                    <input type="text" class="form-control my-4 inp" placeholder="Enter Your Name">
+                    <input type="email" class="form-control my-4 inp" placeholder="Enter Your Email">
+                    <textarea  cols="69" rows="8" class="form-control message" placeholder="Enter Your Message.."></textarea>
+                    <p class="py-3"><span class="text-danger h4 count">100</span> Characyer Reamining</p>
+                    <button class="btn btn-danger px-3 sendM">SEND MESSAGE</button>
+    
+                </div>
+
+                
+            </div>
+            
+
+
+        </div>
+       
+    </section>
+
+
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/first.js"></script>
+</body>
+</html>
